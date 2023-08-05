@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=libv2ray.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.plcoding.androidlibrary -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
